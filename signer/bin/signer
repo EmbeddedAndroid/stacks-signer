@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+CWD=$(dirname "$0")
+docker run -it --rm --net=host -v $CWD/out:/opt signer:latest $@

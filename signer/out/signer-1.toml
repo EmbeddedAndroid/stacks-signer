@@ -1,0 +1,19 @@
+
+message_private_key = "2J3aivdSvgzrj9SXjT1cVjBW38sLCxZK7cGCukWmRX23"
+stacks_private_key = "ceb9527293805b582c0dbeb9825b0dced0f34a475eb2b3c25749a1ae23b886ee01"
+node_host = "127.0.0.1:20443"
+endpoint = "localhost:30001"
+network = "testnet"
+stackerdb_contract_id = "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.testing-signer"
+signer_id = 1
+signers = [
+            {public_key = "29hXd9nukDLwD33eNhBRXrxhGDHwsoRbRwBBgPyym9vWC", key_ids = [1, 2, 3, 4]}
+        ,
+            {public_key = "gorr2Tjc9pAV9wBeN4eDc7ezEhMgt4gpwQrQ1JL7CXBa", key_ids = [5, 6, 7, 8]}
+        ,
+            {public_key = "mRsLRSV6dNebSfNdUa48FE13TZHXPX9fHa3g5w1REvCV", key_ids = [9, 10, 11, 12]}
+        ,
+            {public_key = "i8VLrVsQ1KZSSEJyEXyUp2xu5ZSzxAHKnTvBp3xT2hJz", key_ids = [13, 14, 15, 16]}
+        ,
+            {public_key = "iGQdJSMGKPELngQ7kNmvRjcMyPiJgdoE3TYJtXuTMF4e", key_ids = [17, 18, 19, 20]}
+        ]

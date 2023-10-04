@@ -1,0 +1,21 @@
+version: '3.2'
+
+services:
+  signer:
+    image: signer:latest
+    container_name: signer
+    build:
+      context: ./docker
+      args:
+        STACKS_NODE_VERSION: '2.4.0.0.0'
+        GIT_URI: https://github.com/stacks-network/stacks-blockchain.git
+        GIT_BRANCH: develop
+    command: run --config /opt/signer-0.toml
+    volumes:
+      - ./out:/opt
+    ports:
+      - 30000:30000
+    environment:
+      - STACKS_LOG_DEBUG=0
+      - STACKS_LOG_JSON=0
+      - STACKS_NETWORK=mocknet
